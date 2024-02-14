@@ -1,0 +1,82 @@
+
+/**
+* Author's Name: Aaditya Parajuli
+* Student ID: 2357526
+*/ 
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/fluffy-clouds-blue-sky_23-2148824921.jpg?size=626&ext=jpg);   
+    background-size: cover;
+    margin: 0;                                    /* to remove the default margin */
+    display: flex;                                /* To enable flexbox layout */
+    flex-direction: column;                       /* To set main axis of flex container from top to bottom(column) */
+}
+
+.Searchcontainer {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+
+#locationInput{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
+
+#searchButton {
+    border-radius: 5px;
+    background-color: #3498db; /* Choose a pleasant color */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.valueContainer {
+    max-width: 800px;
+    margin: 0 auto;                                
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);  
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.weatherBox {
+    border:3px solid #433737;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    float: left;                                   
+    text-align: center;
+  }
+
+
+
+#con-container{
+    margin-top: 5em;
+}
+
+#weatherContainer{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    margin-right: 70em;
+    border-radius: 10px;
+    padding: 6px 15px;
+    display: inline-flex;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}

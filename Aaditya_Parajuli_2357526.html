@@ -1,0 +1,74 @@
+<!-- /**
+* Author's Name: Aaditya Parajuli
+* Student ID: 2357526
+*/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Aaditya_Parajuli_2357526.css" />
+  </head>
+  <body>
+
+    <!-- Searchcontainer contains input for entering city name and button for triggering the search-->
+    <div class="Searchcontainer">
+      <h1>Weather</h1>
+      <input type="text" id="locationInput" placeholder="Enter a city name" />
+      <button id="searchButton">Search</button>
+    </div>
+
+    <!-- valueContainer contains all the weather data -->
+    <div class="valueContainer">
+      <!-- weatherBor for all of the different data that needs to be displayed -->
+      <!-- WeatherBox for cityname,dateTime,weatherIcon, and weather condition -->
+      <div class="weatherBox">
+        <h2>City</h2>
+        <p id="cityName"></p>
+        <p id="dateTime"></p>
+        <img id="weatherIcon" alt="Weather Icon" />
+        <p id="weatherCondition"></p>
+      </div>
+
+      <!-- weatherBox for temperature  -->
+      <div class="weatherBox">
+        <h3>Temperature</h3>
+        <p id="temperature"></p>
+      </div>
+
+      <!-- weatherBox for windSpeed -->
+      <div class="weatherBox">
+        <h3>Wind Speed</h3>
+        <p id="windspeed"></p>
+      </div>
+
+      <!-- weatherBox for humidity -->
+      <div class="weatherBox">
+        <h3>Humidity</h3>
+        <p id="humidity"></p>
+      </div>
+
+      <!-- weatherBox for pressure -->
+      <div class="weatherBox">
+        <h3>Pressure</h3>
+        <p id="pressure"></p>
+      </div>
+    </div>
+
+    <div id="con-container">
+      <h3> Zhezkazgan Past Weather</h3>
+      <div id="weatherContainer"></div>
+    </div>
+
+    <!-- footer  -->
+    <div class="footer">
+      <footer>Aaditya Parajuli 2357526 © All rights reserved.</footer>
+    </div>
+
+    <script src="Aaditya_Parajuli_2357526.js"></script>
+  </body>
+</html>
+
+

@@ -1,3 +1,7 @@
+<!-- /**
+* Author's Name: Aaditya Parajuli
+* Student ID: 2357526
+*/ -->
 
 <?php
 // Include the file that establishes the database connection

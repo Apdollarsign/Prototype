@@ -1,3 +1,8 @@
+<!-- /**
+* Author's Name: Aaditya Parajuli
+* Student ID: 2357526
+*/ -->
+
 <?php
 $servername = "localhost";
 $username = "root";

@@ -5,9 +5,9 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "pastWeatherData";
+$username = "id21878557_iamaadityaparajuli";
+$password = "#Sign1time";
+$dbname = "id21878557_weatherapp";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
